@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concatenated Webpage</title>
+    <style>
+        @font-face {
+            font-family: 'Super Bubble';
+            src: url('/Super%20Bubble.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        .concatenated-page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .page-image {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            border: none;
+            vertical-align: top;
+        }
+        .jinchan-lore {
+            font-family: 'Super Bubble', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="concatenated-page">
+        <div style="position: relative; width: 100%;">
+            <img src="public/1.png" alt="Page 1" class="page-image">
+            <div class="jinchan-lore" style="position: absolute; top: 20%; right: 5%; width: 35%; color: white; font-size: 1.5em; text-shadow: 1px 1px 8px #000;">
+                Jinchan’s light found blue crystals singing in the darkness. Earth’s underground sparkled like his home among the stars.
+            </div>
+        </div>
+        <div style="position: relative; width: 100%;">
+            <img src="public/2.png" alt="Page 2" class="page-image">
+            <div class="jinchan-lore" style="position: absolute; top: 39%; left: 15%; width: 35%; color: white; font-size: 1.5em; text-shadow: 1px 1px 8px #000; text-align: left;">
+                The red gems glowed as Jinchan passed by. Mysterious runes danced in their warm light—signs of secrets below.
+            </div>
+        </div>
+        <div style="position: relative; width: 100%;">
+            <img src="public/3.png" alt="Page 3" class="page-image">
+            <div class="jinchan-lore" style="position: absolute; top: 23%; right: 5%; width: 35%; color: white; font-size: 1.5em; text-shadow: 1px 1px 8px #000;">
+                Jinchan climbed higher, chasing a distant hum. Earth’s caves echoed with a promise of discovery.
+            </div>
+        </div>
+        <div style="position: relative; width: 100%;">
+            <img src="public/4.png" alt="Page 4" class="page-image">
+            <div class="jinchan-lore" style="position: absolute; top: 29%; left: 5%; width: 38%; color: white; font-size: 1.5em; text-shadow: 1px 1px 8px #000; text-align: left;">
+                Among golden crystals, Jinchan discovered a coin. For a moment, he felt the pull of his distant planet.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
